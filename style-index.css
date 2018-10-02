@@ -1,30 +1,32 @@
 body {
-    background-color:#bbc3ce
+    background-color:#f4ded0
 }
 h1 {
-    color:#1f3a66;
+    color:#6f916a;
     text-align: center;
     font-family: cursive;
     padding: 20px; 
     text-shadow: 2px 2px 5px gray;
 }
 h2 {
-    color:#284168;
+    color:#9aaf97;
     text-align: center;
     font-family: serif;
-    text-shadow: 2px 2px 5px gray;
+    text-shadow: 2px 2px 5px #6f916a
+    ;
 }
 p {
-    color:#1b1623;
+    color:#6f916a;
     text-align: center;
     font-family: serif;
 }
 .column {
     float: left;
     width: 33%;
-    box-shadow: 10px 10px 5px gray;
+    box-shadow: 10px 10px 5px #f28b6f
+    ;
     text-align: center;
-    background-color: #c8dbf7;
+    background-color: #edc4aa;
     margin: 2px;
 }
 
@@ -36,7 +38,7 @@ p {
 }
 .image{
     border-radius: 8px;
-    box-shadow: 10px 10px 5px gray;
+    box-shadow: 10px 10px 5px #f28b6f;
     width: "200";
     height: auto;
     position: center;
