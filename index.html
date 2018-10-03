@@ -2,24 +2,41 @@
 <html>
     <head>
         <link href= "style.css" type="text/css" rel= "stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" rel="stylesheet" />
     </head>
     <body>
-        <h1>Natashia White</h1>
-        <h2>CS 160 OSU Cascades Portfolio</h2>
-
-        <p>
-            I am a junior at OSU Cascades, currently studying computer science.
-            Outside of school I enjoy painting, reading, baking, and spending
-            time with my incredibly lazy english bulldog.
-        </p>
-        <p>
-            Please enjoy this majestic photo of my dog Pete wearing a cheeseburger hat.
-            <span><img src= "CheeseBurgerPete.jpg" class="image"></span>
-        </p>
-       <div class = "row">
-            <div class = "column"><p><a href= "https://github.com/Whitenat">Github account</a></p></div>
-            <div class = "column"><p><a href="https://stackoverflow.com/users/10430941/n-white">Stack overflow account</a></p></div>
-            <div class = "column"><p><a href ="https://docs.google.com/document/d/1B1SC_aA6Y3KRX5tmk1E_qyv-oFvNX-tbAV4-1WROeYc/edit">Resume</a></p></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Natashia White</h1>
+            </div>
+            <div class="col-xs-12">
+                <h2>CS 160 OSU Cascades Portfolio</h2>
+            </div>
+            <div class="col-xs-12">
+                <p>
+                    I am a junior at OSU Cascades, currently studying computer science.
+                    Outside of school I enjoy painting, reading, baking, and spending
+                    time with my incredibly lazy english bulldog.
+                </p>
+            </div>
+            <div class="col-xs-12 center-xs">
+                <p>Please enjoy this majestic photo of my dog Pete wearing a cheeseburger hat.</p>
+                <img src= "CheeseBurgerPete.jpg" class="image">
+            </div>
         </div>
+
+        <div class="row margin-top-20">
+            <div class="col-xs-12 col-md-4">
+                <a class="button" href= "https://github.com/Whitenat">Github account</a>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <a class="button" href="https://stackoverflow.com/users/10430941/n-white">Stack overflow account</a>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <a class="button" href ="https://docs.google.com/document/d/1B1SC_aA6Y3KRX5tmk1E_qyv-oFvNX-tbAV4-1WROeYc/edit">Resume</a>
+            </div>
+        </div>
+    </div>
     </body>
 </html>
