@@ -37,7 +37,7 @@ p {
 .image{
     border-radius: 8px;
     box-shadow: 10px 10px 5px #bab2b5;
-    width: "200";
+    width: 200px;
     height: auto;
     position: center;
 }
