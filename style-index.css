@@ -22,6 +22,9 @@ p {
     text-align: center;
     font-family: sans-serif;
 }
+.btn {
+    background-color: gray;
+}
 .column {
     float: left;
     width: 33%;
