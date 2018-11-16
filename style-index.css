@@ -25,6 +25,9 @@ p {
 .btn {
     background-color: gray;
 }
+.jumbotron {
+    background-color: #eee2dc;
+}
 .column {
     float: left;
     width: 33%;
