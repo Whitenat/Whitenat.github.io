@@ -27,7 +27,6 @@ p {
 }
 .jumbotron {
     background-color: #eee2dc;
-    background: "main.js";
 }
 .column {
     float: left;
