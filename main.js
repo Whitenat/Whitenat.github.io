@@ -1,6 +1,6 @@
 function setup() {
     var myCanvas = createCanvas(windowWidth, windowHeight);
-    myCanvas.parent('jumbotron');
+    //myCanvas.parent('jumbotron');
   }
   
   function draw() {
