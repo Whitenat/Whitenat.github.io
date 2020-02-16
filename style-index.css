@@ -1,24 +1,31 @@
 body {
-    background-color:#845C72;
+    background-color:white;
     /* Move down content because we have a fixed navbar that is 3.5rem tall */
     padding-top: 3.5rem;
 
 }
 h1 {
-    color:white;
+    color: white;
     text-align: center;
     font-family: 'Playfair Display', serif;
     padding: 20px; 
     text-shadow: 2px 2px 5px #bab2b5;
 }
 h2 {
+    color:grey;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    text-shadow: 2px 2px 5px #bab2b5;
+}
+h3 {
     color:white;
     text-align: center;
     font-family: 'Playfair Display', serif;
     text-shadow: 2px 2px 5px #bab2b5;
 }
+
 p {
-    color:#eee2dc;
+    color:grey;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
@@ -27,7 +34,7 @@ p {
     border: white;
 }
 .jumbotron {
-    background-color: #150917;
+    background-color: white;
     background-image:url("https://www.transparenttextures.com/patterns/black-linen-2.png");
 /* background taken from https://www.transparenttextures.com */
     border-bottom: ridge 2em white;
