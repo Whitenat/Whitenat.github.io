@@ -61,6 +61,10 @@
 .nav-tabs{
   margin: auto;
   width: 90%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: -webkit-box;
+  display: -moz-box;
 }
 
 .teal-btn{
@@ -131,6 +135,7 @@
   padding-top: 48px;
   padding-bottom: 48px;
   padding-left: 30%;
+  padding-right: 48px;
   border-radius: 0px 6px 6px 0px;
   text-align: left;
 }
