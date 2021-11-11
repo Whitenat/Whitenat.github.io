@@ -7,7 +7,7 @@ function Navbar (){
     <nav className="navbar navbar-inverse fixed-top">
       <div className="container-fluid">
         <ul className="nav navbar-nav">
-          <li className="active"><a href="#">Home</a></li>
+          <li className="active"><a href="#">Resume</a></li>
           <li><a href="#">Projects</a></li>
           <li><a href="#">Resources</a></li>
         </ul>
