@@ -47,7 +47,7 @@ function Home() {
         <div className="container jumbotron-container">
           <div className="jumbotron jumbotron-header">
             <h1>Portfolio</h1>
-            <p>As an entry-level full stack engineer I am looking to broaden my skills in software development, with a challenging position that allows me to contribute my experience in web development, project management, and ability to collaborate and work with others, while quickly learning new skills and processes.</p>
+            <p></p>
           </div>
         </div>
         <ul className="nav nav-tabs">
