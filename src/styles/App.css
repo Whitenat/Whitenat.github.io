@@ -108,36 +108,28 @@
   filter:  drop-shadow(8px 8px 10px gray);
   width: 90%;
 }
+@media only screen and (min-width:  768px){
+  .left-header{
+    width: 25%;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
 
+  .right-body{
+    width: 75%;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 30%;
+    padding-right: 48px;
+  }
+}
 .left-header{
-  width: 25%;
-  padding-top: 48px;
-  padding-bottom: 48px;
   border-radius: 0px 0px 0px 6px;
 }
 
-.left-body{
-  width: 75%;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  border-radius: 6px 0px 0px 6px;
-}
-
-.right-header{
-  width: 25%;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  border-radius: 0px 6px 6px 0px;
-}
-
 .right-body{
-  width: 75%;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  padding-left: 30%;
-  padding-right: 48px;
-  border-radius: 0px 6px 6px 0px;
   text-align: left;
+  border-radius: 0px 6px 6px 0px;
 }
 
 .footer {
