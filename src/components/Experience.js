@@ -6,24 +6,24 @@ function Experience (){
   return (
     <div className="experience-list">
       <div className="LeftGrid teal-row work-background">
-        <div class="row">
-          <div class="col-md-8 left-header">
-            <h3><span class="glyphicon glyphicon-briefcase"></span> Experience</h3>
+        <div className="row">
+          <div className="col-md-8 left-header">
+            <h3><span className="glyphicon glyphicon-briefcase"></span> Experience</h3>
           </div>
-          <div class="col-md-4 right-body">
+          <div className="col-md-4 right-body">
             <p>As an entry-level full stack engineer I am looking to broaden my skills in software development, with a challenging position that allows me to contribute my experience in web development, project management, and ability to collaborate and work with others, while quickly learning new skills and processes.</p>
           </div>
         </div>
       </div>
       <br/>
       <div className="LeftGrid teal-row work-background">
-        <div class="row">
-          <div class="col-md-8 left-header">
+        <div className="row">
+          <div className="col-md-8 left-header">
             <h4>Computer Science Teaching Assistant </h4>
             <p><b>Oregon State Univeristy - Cascades </b></p>
             <p><i>June 2020 - June 2021</i></p>
           </div>
-          <div class="col-md-4 right-body">
+          <div className="col-md-4 right-body">
             <ul>
               <li>Coached 100+ Computer Science students in developing their understanding of various concepts including operating systems, databases, and programming fundamentas</li>
               <li>Conducted code reviews and clarified course topics for CS students in and out of the classroom.</li>
@@ -36,13 +36,13 @@ function Experience (){
       </div>
       <br/>
       <div className="LeftGrid teal-row work-background">
-        <div class="row">
-          <div class="col-md-8 left-header">
+        <div className="row">
+          <div className="col-md-8 left-header">
             <h4>Developer</h4>
             <p><b>Mazama Media</b></p>
             <p><i>Aug 2019 - Oct 2020</i></p>
           </div>
-          <div class="col-md-4 right-body">
+          <div className="col-md-4 right-body">
             <ul>
               <li>Maintained existing systems in C#, MySQL, JavaScript, and Azure  for processing data from over 50 automotive dealerships.</li>
               <li>Built a dynamic web based application to automate the process of eligibility verification, enrollment, and phone shipment using Heroku, Go, JavaScript to integrate 5 RESTful APIs.</li>
@@ -55,13 +55,13 @@ function Experience (){
       </div>
       <br/>
       <div className="LeftGrid teal-row work-background">
-        <div class="row">
-          <div class="col-md-8 left-header">
+        <div className="row">
+          <div className="col-md-8 left-header">
             <h4>Software Development Intern</h4>
             <p><b>Lora Dicarlo</b></p>
             <p><i>Feb 2019 - Aug 2019</i></p>
           </div>
-          <div class="col-md-4 right-body">
+          <div className="col-md-4 right-body">
             <ul>
               <li>Collaborated with co-founders to define the company’s growing needs and present innovative solutions.</li>
               <li>Learned and implemented new marketing and web development concepts and strategies.</li>
