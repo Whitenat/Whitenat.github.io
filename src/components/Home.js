@@ -5,6 +5,7 @@ import Experience from './Experience';
 import Skills from './Skills';
 import Contact from './Contact';
 import Projects from './Projects';
+import AboutMe from './AboutMe';
 
 function Home() {
   
@@ -58,6 +59,17 @@ function Home() {
 
   return (
       <div className="App">
+        <div className="container jumbotron-container">
+          <div className="jumbotron jumbotron-header">
+            <h1>Natashia White</h1>
+            <p>New Grad Full Stack Engineer</p>
+          </div>
+        </div>
+        <ul className="nav nav-tabs">
+          <li className="teal-tab"><button className="btn teal-btn btn-active">About Me</button></li>
+        </ul>
+        <AboutMe/>
+        <br/>
         <div className="container jumbotron-container">
           <div className="jumbotron jumbotron-header">
             <h1>Portfolio</h1>
