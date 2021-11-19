@@ -5,11 +5,11 @@ import '../styles/App.css';
 function Skills (){
   return (
       <div className="RightGrid teal-row skills">
-        <div class="row">
-          <div class="col-md-4 left-header">
-            <h3><span class="glyphicon glyphicon-book"></span> Skills</h3>
+        <div className="row">
+          <div className="col-md-4 left-header">
+            <h3><span className="glyphicon glyphicon-book"></span> Skills</h3>
           </div>
-          <div class="col-md-8 right-body">
+          <div className="col-md-8 right-body">
             <ul>
               <li>C</li>
               <li>Go</li>
