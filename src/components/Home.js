@@ -13,6 +13,7 @@ function Home() {
   const [experience, setExperience] = useState(false);
   const [skills, setSkills] = useState(false);
   const [contact, setContact] = useState(false);
+  const [about, setAbout] = useState(false);
   const [projects, setProjects] = useState(true);
   let inactiveBtn = "btn teal-btn";
   let activeBtn = "btn teal-btn btn-active";
@@ -23,6 +24,7 @@ function Home() {
     setSkills(false);
     setContact(false);
     setProjects(false);
+    setAbout(false);
   }
 
   function clickExperience(){
@@ -31,6 +33,7 @@ function Home() {
     setSkills(false);
     setContact(false);
     setProjects(false);
+    setAbout(false);
   }
 
   function clickSkills() {
@@ -39,6 +42,7 @@ function Home() {
     setSkills(true);
     setContact(false);
     setProjects(false);
+    setAbout(false);
   }
 
   function clickContact() {
@@ -47,6 +51,7 @@ function Home() {
     setSkills(false);
     setContact(true);
     setProjects(false);
+    setAbout(false);
   }
 
   function clickProjects() {
@@ -55,6 +60,16 @@ function Home() {
     setSkills(false);
     setContact(false);
     setProjects(true);
+    setAbout(false);
+  }
+
+    function clickAbout() {
+    setEducation(false);
+    setExperience(false);
+    setSkills(false);
+    setContact(false);
+    setProjects(false);
+    setAbout(true);
   }
 
   return (
@@ -66,28 +81,19 @@ function Home() {
           </div>
         </div>
         <ul className="nav nav-tabs">
-          <li className="teal-tab"><button className="btn teal-btn btn-active">About Me</button></li>
-        </ul>
-        <AboutMe/>
-        <br/>
-        <div className="container jumbotron-container">
-          <div className="jumbotron jumbotron-header">
-            <h1>Portfolio</h1>
-            <p></p>
-          </div>
-        </div>
-        <ul className="nav nav-tabs">
           <li className="teal-tab"><button className= {"btn teal-btn" + (projects ? " btn-active" : "")} onClick={clickProjects}>Projects</button></li>
           <li className="teal-tab"><button className= {"btn teal-btn" + (experience ? " btn-active" : "")} onClick={clickExperience}>Experience</button></li>
           <li className="teal-tab"><button className= {"btn teal-btn" + (education ? " btn-active" : "")} onClick={clickEducation}>Education</button></li>
           <li className="teal-tab"><button className= {"btn teal-btn" + (skills ? " btn-active" : "")} onClick={clickSkills}>Skills</button></li>
           <li className="teal-tab"><button className= {"btn teal-btn" + (contact ? " btn-active" : "")} onClick={clickContact}>Contact</button></li>
+          <li className="teal-tab"><button className= {"btn teal-btn" + (about ? " btn-active" : "")} onClick={clickAbout}>About Me</button></li>
         </ul>
         {projects && <Projects/>}
         {experience && <Experience/>}
         {education && <Education/>}
         {skills && <Skills/>}
         {contact && <Contact/>}
+        {about && <AboutMe/>}
         <br/>
       </div>
   );
